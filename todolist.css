@@ -1,0 +1,59 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+input,button{
+    font-size: medium;
+    padding: 10px;
+    background-color: #ddd;
+}
+#bt{
+    background-color: rgb(36, 143, 167);
+}
+.task-button{
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 10px;
+}
+.task-button button{
+    padding: 5px 15px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.Completed{
+    text-decoration: line-through;
+    color: #888;
+}
+ul{
+    max-width: 600px;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+
+}
+#font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#save{
+    border: 4px solid black; /* 4px thick solid black border */
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    background-color: white; /* Optional: White background for contrast */
+    color: black; /* Text color */
+    font-size: 16px; /* Optional: Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: rgb(36, 143, 167);
+}
+#font{
+    font-weight: 100;
+}
